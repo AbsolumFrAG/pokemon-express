@@ -1,5 +1,5 @@
 # Installation du projet
-#### ```git clone```
+```git clone git@github.com:AbsolumFrAG/pokemon-express.git```
 ```npm install```
 ```npm start```
 
@@ -7,7 +7,7 @@
 Ce rapport explique comment mettre en place une API en ExpressJS, en utilisant Sequelize comme ORM pour interagir avec une base de données SQLite. L’API permet de gérer des informations sur les Pokémon via des opérations CRUD (Create, Read, Update, Delete).
 
 # Configuration
-1. #### Mise en place de Sequelize : Créer un fichier ```database.js``` pour configurer Sequelize avec SQLite.
+1. Mise en place de Sequelize : Créer un fichier ```database.js``` pour configurer Sequelize avec SQLite.
 2. Création du modèle Pokémon : Dans un dossier ```models```, créer un fichier ```pokemon.model.js```.
 
 # Création de l’API
